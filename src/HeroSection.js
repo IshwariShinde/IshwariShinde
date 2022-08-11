@@ -31,7 +31,7 @@ const HeroSection = () => {
               <span></span>
               <span></span>
               <span></span>
-              ⇩ CV ⇩
+              Download CV
               </button></a>
         </div>
         <div className='right-content animate__animated animate__fadeInRight animate__delay-1s'>
