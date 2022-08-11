@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/IshwariShinde/static/css/main.f521a413.css",
+    "main.js": "/IshwariShinde/static/js/main.971fdac1.js",
+    "static/media/todoimg.png": "/IshwariShinde/static/media/todoimg.8a8768466604620d488d.png",
+    "static/media/isha.jpg": "/IshwariShinde/static/media/isha.5f9050fc82fc0d913228.jpg",
+    "static/media/ytclone.png": "/IshwariShinde/static/media/ytclone.7f6fc4b6d01686169f13.png",
+    "static/media/hajeri.png": "/IshwariShinde/static/media/hajeri.02c03e9b6b33593afb63.png",
+    "static/media/imgabt2.png": "/IshwariShinde/static/media/imgabt2.15025a5fe0d8b36171df.png",
+    "static/media/resume.pdf": "/IshwariShinde/static/media/resume.0aec5cd9157e22543e00.pdf",
+    "static/media/triangle.png": "/IshwariShinde/static/media/triangle.b3eb1e74568e78c1d25d.png",
+    "index.html": "/IshwariShinde/index.html",
+    "main.f521a413.css.map": "/IshwariShinde/static/css/main.f521a413.css.map",
+    "main.971fdac1.js.map": "/IshwariShinde/static/js/main.971fdac1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f521a413.css",
+    "static/js/main.971fdac1.js"
+  ]
+}
