@@ -1,0 +1,118 @@
+.aboutme{
+    color: rgb(220, 209, 209);
+    text-align: center;
+    margin-top:55px ;
+
+    
+}
+.aboutme >h2{
+    margin-top: 50px;
+    color: #39ff14;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+.about_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgabout{
+    flex: 0.5;
+    font-size: 50px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+.img_abt{
+    width: 370px;
+  
+    border-radius:5px;
+    animation:updown 3s linear infinite;
+  
+   
+}
+@keyframes updown{
+    0%{
+        transform: translateY(20px);
+    }
+    25%{
+        transform: translateX(-20px);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(20px);
+    }
+}
+.about_content{
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_content > p{
+    margin: 2rem 0 2.6rem;
+    text-align:left;
+    padding-right: 10rem;
+    letter-spacing: 1px;
+   
+    
+}
+.about_btn{
+    color: rgb(31, 31, 32);
+     text-decoration: none;
+     /* background-color: rgb(31, 31, 32); */
+     background:#39ff14;
+     border-radius: 5px;
+     border-color: #39ff14;
+     display:inline-block;
+     padding: 10px 10px;
+     margin-top: 30px;
+     font-size: 20px;
+     transition:all 0.2s ease-in-out;
+
+}
+.about_btn:hover{
+    margin-left: 15px;
+    box-shadow: 0 0 10px #39ff14,0 0 40px #39ff14,0 0 10px #39ff14;
+}
+@media screen and (max-width:915px) {
+    .about_content{
+        margin-left: 45px;
+        margin-right: 45px;
+
+    }
+}
+@media screen and (max-width:920px) {
+    .about_wrapper{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .about_content > p{
+        text-align:justify;
+        padding-right: 0;
+    }
+   
+   
+}
+@media screen and (max-width:400px){
+    .about_content{
+        margin: 2px;
+    }
+}
+@media screen and (max-width:370px) {
+    .img_abt{
+       width:300px ;
+     }
+}
+@media screen and (max-width:285px) {
+    .img_abt{
+        width: 200px;
+    }
+}

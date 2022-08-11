@@ -1,0 +1,15 @@
+.projects{
+    text-align: center;
+}
+.projects >h2{
+    margin-top: 50px;
+    color: #39ff14;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+.projectcards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}

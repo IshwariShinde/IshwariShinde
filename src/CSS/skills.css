@@ -1,0 +1,18 @@
+.skills{
+    text-align: center;
+}
+.skills > h2{
+    margin-top: 50px;
+    color: #39ff14;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+.skillIcon{
+    font-size: 100px;
+}
+#js_color{
+    color: yellow;
+}
+#mongodb_color{
+    color: #2dd210;
+}

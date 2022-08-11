@@ -1,0 +1,211 @@
+.herosection{
+     position: relative;
+}
+.common{
+    padding: 70px 0;
+}
+.shape > img{
+    position: absolute;
+    width: 100%;
+    z-index: -9;
+
+    /* animation: rotate 20s linear infinite; */
+}
+.shape > .shape1{
+    right: -160px;
+    top: 50px;
+    width: 450px;
+    opacity: .5;
+    transform-origin: center;
+    animation: shape 30s linear infinite reverse;
+}
+.shape > .shape2{
+    left: -80px;
+    bottom: 50px;
+    width: 350px;
+    opacity: .5;
+    transform-origin: center;
+    animation: shape 30s linear infinite reverse;
+}
+@keyframes shape{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.shape > .shape3{
+    left: 55px;
+    top: 8px;
+    width: 250px;
+    opacity: .3;
+    transform-origin: center;
+    animation: shape3 20s linear infinite ;
+    /* transform: translate(-200px, -100px) rotate(0deg) */
+}
+@keyframes shape3{
+    100%{
+        transform: rotate(360deg) ;
+    }
+}
+.shape > .shape4{
+    left:650px;
+    top: 200px;
+    width: 65px;
+    opacity: .1;
+    transform-origin: center;
+    animation: shape4 30s linear infinite 5s;
+    z-index: 1;
+    /* transform: translate(700px,80px) rotate(0deg); */
+}
+@keyframes shape4{
+    100%{
+        transform:  rotate(360deg);
+    }
+}
+.shape > .shape5{
+    left: 500px;
+    top: 0;
+    width: 100px;
+    opacity: .2;
+    transform-origin: center;
+    animation: shape5 25s linear infinite ;
+    /* transform: translate(0, -150px) rotate(0deg); */
+}
+@keyframes shape5{
+    100%{
+        /* opacity: 1; */
+        transform:  rotate(720deg);
+    }
+
+}
+
+.herosection_inner{
+    color: rgb(220, 209, 209);
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.cv-btn{
+    background-color: rgb(31, 31, 32);
+    border-radius: 5px;
+    position: relative;
+    display:inline-block;
+    color: #39ff14;
+    padding: 15px 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    transition:all 0.2s ease-in-out;
+   border: none;
+   overflow: hidden;
+   
+}
+
+.cv-btn:hover{
+    background-color: #39ff14;
+    color: rgb(31, 31, 32);
+    cursor: pointer;
+    box-shadow: 0 0 10px #39ff14,0 0 40px #39ff14,0 0 10px #39ff14;
+    transition-delay: 1s;
+    
+}
+.cv-btn > span{
+    position: absolute;
+   display: block;
+}
+.cv-btn > span:nth-child(1){
+top: 0;
+left: -100%;
+width: 100%;
+height: 2px;
+background:linear-gradient(90deg, transparent, #39ff14);
+}
+.cv-btn:hover > span:nth-child(1){
+    left: 100%;
+    transition: 1s;
+
+}
+.cv-btn > span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background:linear-gradient(270deg, transparent, #39ff14);
+    }
+.cv-btn:hover > span:nth-child(3){
+        right: 100%;
+        transition: 1s;
+        transition-delay: 0.5s;
+    
+    }
+.cv-btn > span:nth-child(2){
+        top: -100%;
+        right: 0;
+        width: 2px;
+        height: 100%;
+        background:linear-gradient(180deg, transparent, #39ff14);
+        }
+.cv-btn:hover > span:nth-child(2){
+            top: 100%;
+            transition: 1s;
+            transition-delay: 0.25s;
+        
+}
+ .cv-btn > span:nth-child(4){
+            bottom: -100%;
+            left: 0;
+            width: 2px;
+            height: 100%;
+            background:linear-gradient(360deg, transparent, #39ff14);
+            }
+.cv-btn:hover > span:nth-child(4){
+                bottom: 100%;
+                transition: 1s;
+                transition-delay: 0.75s;
+            
+            }
+.edit-text{
+    font-size: 50px;
+    font-weight: bold;
+}
+.color-text{
+    color: #39ff14;
+    animation: glow 2s linear infinite;
+}
+.main-img{
+    width: 500px;
+    /* margin-top: 40px; */
+    margin-left: 60px;
+    animation: imgupdown 15s linear infinite;
+}
+
+@media screen and (max-width:1340px) {
+    .shape{
+        display: none;
+    }
+}
+@media screen and (max-width:885px) {
+    .left-content{
+        margin-left: 8px;
+    }
+}
+@media screen and (max-width:818px) {
+    .left-content{
+        padding-top: 15px;
+    }
+}
+@media screen and (max-width:640px) {
+    .main-img{
+        margin-left: auto;
+    }
+}
+@media screen and (max-width:510px) {
+    .main-img{
+        width: 350px;
+    }
+    
+}
+@media screen and (max-width:285px) {
+    .main-img{
+        width: 280px;
+    }
+}
